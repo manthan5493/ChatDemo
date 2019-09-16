@@ -59,6 +59,6 @@ Chat Demo with pubnub
   Then we need to add FCM server key from firebase project setting and add in PubNub dashboard
 8. To send push notification we must need to send pushnotification data along with message json
 
-  ***Push notification data must be inside pn_gcm.data object***
+ 	 ***Push notification data must be inside pn_gcm.data object***
 
-  ***To remove self or any other user from getting push notification add all token in json array and send in pn_gcm.pn_exceptions object***
+  	***To remove self or any other user from getting push notification add all token in json array and send in pn_gcm.pn_exceptions object***
